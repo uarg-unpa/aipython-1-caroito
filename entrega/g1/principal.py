@@ -1,1 +1,0 @@
-print("Taller de AIPython P1 E2")
