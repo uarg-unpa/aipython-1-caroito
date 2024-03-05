@@ -33,3 +33,29 @@ elif (calificacion>=70):
         print("bien")
 else:
         print("insuficiente")
+
+pais = input("introduce tu pais de origen:")
+if pais == "argentina":
+      input("ingrese su ciudad")
+      if input() == "rio gallegos":
+      else:
+        print("bienvenido rio galleguense")
+
+
+
+
+dia = input("ingrese un dia de la semana: ")
+dia = dia.title()
+match dia:
+    case "Lunes":
+          print("lunes")
+    case "Martes":
+          print("Martes")
+    case "Miercoles":
+          print("Miercoles")
+    case "Jueves":
+          print("Jueves")
+    case "Viernes":
+          print("Viernes")
+    case _:
+        print("no valido")
