@@ -8,4 +8,4 @@
 radio = float(input("Ingrese el radio de la circunferencia: "))
 pi = float(3,14)
 resultado = 2 * radio * pi
-print(f"La circunferencia es igual a ", resultado)
+print(f"La circunferencia es igual a ", resultado) #no funciona u_u
