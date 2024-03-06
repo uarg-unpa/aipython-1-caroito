@@ -7,7 +7,7 @@ print(apellido_alumno)
 edad = 19
 print(edad)
 
-altura = "1,60"
+altura = "160"
 print("mido", altura)
 
 num_vuelo = "AD8"
