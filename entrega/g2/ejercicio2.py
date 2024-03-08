@@ -1,10 +1,9 @@
 su_edad = int(input("Ingrese su edad: "))
-mi_edad = 19
-diferencia = su_edad-mi_edad
+mi_edad = 2004
 
-if (su_edad>mi_edad):
-    print("Usted es mayor que yo por",diferencia, "años.")
-elif(su_edad<mi_edad):
-    print("Usted es menor que yo por",(mi_edad-su_edad), "años.")
+if (su_edad-mi_edad==1):
+    print("Usted es menor que yo por un año.")
+elif (su_edad==mi_edad):
+    print("Contemporáneos!")
 else:
-    print ("Contemporáenos!")
+    print("Usted es mayor que yo por",(mi_edad-su_edad), "años.")
