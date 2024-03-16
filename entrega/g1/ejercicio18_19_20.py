@@ -1,0 +1,33 @@
+#ejercicio 18
+print("         *")
+print("        * *")
+print("       *   *")
+print("      *     *")
+print("     *       *")
+print("    *         *")
+print("   *           *")
+print("  *             *")
+print(" *               *")
+print("*******************")
+print("      *      *")
+print("      *      *")
+print("      *      *")
+print("      *      *")
+print("      *      *")
+print("      ********")
+
+#ejercicio19
+print("     ** \n    *  *\n   *    * \n  *      * \n *        * \n*          *\n************\n   *    * \n   *    * \n   *    * \n   *    * \n   ****** ")
+
+#ejercicio20
+print("       *              *")
+print("      * *            * *")
+print("     *   *          *   *")
+print("    *     *        *     *")
+print("   *       *      *       *")
+print("  *         *    *         *")
+print(" *************  *************")
+print("     *   *          *   *")
+print("     *   *          *   *")
+print("     *   *          *   *")
+print("     *****          *****")
