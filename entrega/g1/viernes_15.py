@@ -4,7 +4,7 @@ nombres=[]
 #valores iniciales
 nombres=['franco','fernanda','alejandro','fabiana']
 #mostrar listas
-#print(nombres)
+print(nombres)
 #iterar sobre la lista usando indices
 for i in range(len(nombres)):
     print(nombres[i])
@@ -18,7 +18,7 @@ print(f"el primer elemento es {primer_elemento}")
 #nombres=list()
 #crear una lista con valores iniciales
 nombres=list(['gaston','eva','lautaro'])
-#print(nombres)
+print(nombres)
 
 #metodos, append. permite agregar un elemento al final de la lista
 nombres.append('sandra')
