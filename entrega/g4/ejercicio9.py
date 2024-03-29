@@ -5,4 +5,4 @@ def invertir(palabra):
     else:
         print("Su palabra no es un palíndromo.")
 
-print(invertir("pollo"))
+print(invertir("menem"))
