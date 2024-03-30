@@ -24,11 +24,11 @@ def dado_5(cant_dados):
      total=sum(resultados)
      print(f"El total fue: {total}") 
     
-def dado_7(cant_dados):
+def dado_6(cant_dados):
      resultados=[]
      for i in range(cant_dados):
-          i = random.randint(1,7)
-          print(f"El resultado del dado de 7 caras es: {i}") 
+          i = random.randint(1,6)
+          print(f"El resultado del dado de 6 caras es: {i}") 
           resultados.append(i) 
      print(f"Los resultados de los dados fueron: {resultados}") 
      total=sum(resultados)
@@ -88,7 +88,7 @@ while True:
      if op1==1:
           dado_5(cant_dados)
      elif op1==2:
-          dado_7(cant_dados)
+          dado_6(cant_dados)
      elif op1==3:
           dado_10(cant_dados)
      elif op1==4:
