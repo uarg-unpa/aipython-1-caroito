@@ -5,6 +5,7 @@ def menu():
      print(f"1: Elegir tipos de dados") 
      print(f"2: Salir") 
      
+     
 def menu_dados():
     print(f"1: Para dados de 5 caras.") 
     print(f"2: Para dados de 7 caras.")
@@ -65,10 +66,11 @@ def dado_manual(cant_dados):
     total=sum(resultados)
     print(f"El total fue: {total}") 
 
-
+cant_ope=0
 while True:
      op=0
      op1=0
+
      print(menu())
      op=int(input("Ingrese la opción: "))
      if op ==1:
@@ -76,6 +78,7 @@ while True:
          op1=int(input("Ingrese una opción: "))
      elif op ==2:
           print("Vuelva pronto!")
+          print("- - - - - - - - - - - - - - - -")
           break
      else:
           print("Ingrese una opción válida.")
@@ -83,19 +86,26 @@ while True:
           cant_dados=int(input("Cuántos dados desea tirar?: "))
      else:
           print("Por favor, ingrese una opción válida")
+          print("- - - - - - - - - - - - - - - -")
           print()
           continue
      if op1==1:
           dado_5(cant_dados)
+          cant_ope +=1
      elif op1==2:
           dado_6(cant_dados)
+          cant_ope +=1
      elif op1==3:
           dado_10(cant_dados)
+          cant_ope +=1
      elif op1==4:
           dado_15(cant_dados)
+          cant_ope +=1
      elif op1==5:
           dado_manual(cant_dados)
+          cant_ope +=1
      else:
           print("Ingrese una opcion válida.")
-
-     break
+     print(f"La cantidad de operaciones realizadas fue {cant_ope}")
+     print("- - - - - - - - - - - - - - - -")
+     continue
