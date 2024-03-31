@@ -3,8 +3,7 @@ import random
 def menu():
      print("Bienvenido al simulador de lanzamiento de dados.")
      print(f"1: Elegir tipos de dados") 
-     print(f"2: Salir") 
-     
+     print(f"2: Salir")     
      
 def menu_dados():
     print(f"1: Para dados de 5 caras.") 
@@ -12,7 +11,6 @@ def menu_dados():
     print(f"3: Para dados de 10 caras.")
     print(f"4: Para dados de 15 caras.")
     print(f"5: Ingresar manualmente.")
-
 
 
 def dado_5(cant_dados):
